@@ -1,0 +1,143 @@
+:root {
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+/*/base/*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-left: 10px;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/*/principal/*/
+.principal {
+    font-size: 16px;
+    background:black url('/img/jinx.jpeg');
+    font-style: oblique;
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.principal .descricao{
+    margin-top: 15px;
+    margin-bottom: 70px;
+    background-color: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%);
+}
+
+.titulo {
+    margin-top: 15%;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 10px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .4s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.botao i {
+    margin-right: 7px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.principal .container {
+    width: 35%;
+}
+
+.boxfilme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, .5); 
+}
+
+.carrosel-filmes2 {
+    margin-top: 28px;  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao2 {
+    background-color: rgba(0, 0, 0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 10px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .4s ease all;
+}
+
+.botao2:hover {
+        background-color: white;
+        color: black;
+    
+    }
+    
+.botao2 i {
+        margin-right: 7px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+}
